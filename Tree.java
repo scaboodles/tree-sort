@@ -19,6 +19,7 @@ public class Tree<T> {
         recurseIter(this.root);
     } 
     private void recurseIter(Node<T> node){
+        System.out.println(node.data);
         for(Node<T> child:node.children){
             recurseIter(child);
         }
