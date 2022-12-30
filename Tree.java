@@ -10,9 +10,9 @@ public class Tree<T> {
     }
 
     public static class Node<T> {
-        private T data;
-        private Node<T> parent;
-        private ArrayList<Node<T>> children;
+        public T data;
+        public Node<T> parent;
+        public ArrayList<Node<T>> children;
     }
 
     public void iterAll(){
